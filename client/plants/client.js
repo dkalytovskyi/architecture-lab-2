@@ -6,7 +6,7 @@ const Client = (baseUrl) => {
 
     return {
         listCriticalPlants: () => client.get('/plants'),
-        setMoistureLevel: (id, level) => client.post('/plants', { id, level })
+        addMoistureLevel: (id, soilMoistureLevel) => client.post('/plants', { id, soilMoistureLevel })
     }
 
 };

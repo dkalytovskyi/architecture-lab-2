@@ -1,21 +1,13 @@
 {
-  "name": "plants",
+  "name": "chat",
   "version": "1.0.0",
   "description": "",
   "main": "examples.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dkalytovskyi/architecture-lab-2.git"
-  },
-  "author": "Denis Kalytovskyi",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dkalytovskyi/architecture-lab-2/issues"
-  },
-  "homepage": "https://github.com/dkalytovskyi/architecture-lab-2#readme",
   "dependencies": {
     "request": "^2.88.0"
   }

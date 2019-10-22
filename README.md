@@ -1,16 +1,16 @@
-Приклад організації коду для 2-гої лабораторної роботи.
+To start the project do the following:
 
-- Сервер запускається командою
+- Start the server
 ```shell script
 go run ./cmd/server
 ```
-з директорії `server`.
+inside the `server` directory.
 
-- Приклади реалізації сценаріїв на базі клієнтського SDK запускаються через команду
+- Start the client scenarios
 ```shell script
 npm install
 node examples.js
 ```
-з директорії `client`.
+inside the `client` directory.
 
-- Папка `db` містить SQL скрипти для ініціалізації БД сервера.
+- Folder `db` consists of sql scripts for database initializing.
